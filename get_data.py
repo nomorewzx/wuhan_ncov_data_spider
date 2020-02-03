@@ -28,7 +28,7 @@ def get_stat_from_url():
 
     all_region_df = pd.DataFrame(all_region_result_list)
     print(all_region_df.to_string())
-    all_region_df.to_excel('all_region.xlsx', index=False)
+    all_region_df.to_excel('all_region_data.xlsx', index=False)
 
 
 if __name__ == '__main__':
